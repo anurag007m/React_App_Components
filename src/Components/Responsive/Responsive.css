@@ -1,0 +1,75 @@
+/* Base styles for all screen sizes */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+  }
+  
+  .app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .content {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Mobile view */
+  @media (max-width: 767px) {
+    body {
+      background-color: #e6f7ff;
+    }
+  
+    .content {
+      background-color: #fff;
+      width: 80%;
+      padding: 10px;
+    }
+  }
+  
+  /* Tablet view */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    body {
+      background-color: #ffdb4d;
+    }
+  
+    .content {
+      background-color: #fff;
+      width: 60%;
+      padding: 20px;
+    }
+  }
+  
+  /* Laptop view */
+  @media (min-width: 1024px) and (max-width: 1439px) {
+    body {
+      background-color: #b3ffcc;
+    }
+  
+    .content {
+      background-color: #fff;
+      width: 50%;
+      padding: 30px;
+    }
+  }
+  
+  /* Large screen view */
+  @media (min-width: 1440px) {
+    body {
+      background-color: #ff9999;
+    }
+  
+    .content {
+      background-color: #fff;
+      width: 40%;
+      padding: 40px;
+    }
+  }
+  

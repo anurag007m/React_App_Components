@@ -1,0 +1,22 @@
+.container{
+    height: 100vh;
+    display: flex;
+}
+
+.part1{
+    height: 100vh;
+    width: 20%;
+    background-color: orange;
+}
+
+.part2{
+    height: 100vh;
+    width: 50%;
+    background-color: rgb(225, 91, 225);
+}
+.part3{
+    height: 100vh;
+    width: 30%;
+    background-color: rgb(117, 205, 117);
+}
+

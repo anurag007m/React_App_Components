@@ -1,0 +1,32 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    
+  }
+
+  .btnOrange{
+    background: linear-gradient(to right, #ff6b6b, #ff8e8e);
+    color: #fff;
+  }
+  
+  
+  .grey{
+    background: #EAEAEA;
+    color:#676767;
+  }
+  /* Hover effect */
+  .btn:hover {
+    background: linear-gradient(to right, #86f0c9, #86f0c9);
+    transform: scale(1.08);
+  }
+  
+  
+  
